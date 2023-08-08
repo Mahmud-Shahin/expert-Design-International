@@ -4,14 +4,14 @@ import Slider from "./Slider";
 const Banner = () => {
   return (
     <div className="hero py-6 ">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col  lg:flex-row-reverse">
         <Slider></Slider>
-        <div>
-          <h1 className="text-4xl font-bold ">
+        <div className="">
+          <h1 className="text-3xl font-bold ">
             Cheap Photo Editing Service Provider Especially for E-commerce and
             Product Photos
           </h1>
-          <p className="py-6">
+          <p className="py-6 mb-8">
             Are you looking for a graphic design or image manipulation company
             to help you with your ecommerce product photographs or other
             personal projects? If that’s the case, let us take this occasion to

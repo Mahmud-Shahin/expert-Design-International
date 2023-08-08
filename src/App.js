@@ -6,7 +6,7 @@ import { NavbarDefault } from "./pages/Shared/NavbarDefault";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <NavbarDefault></NavbarDefault>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
