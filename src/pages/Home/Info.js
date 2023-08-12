@@ -5,6 +5,7 @@ import iconThree from "../../assets/icons/icon (3).webp";
 import iconOne from "../../assets/icons/icon (1).webp";
 import iconfour from "../../assets/icons/icon (4).webp";
 import iconTwo from "../../assets/icons/icon (2).webp";
+import CounterUpPage from "./CounterUpPage";
 
 const Info = () => {
   return (
@@ -13,31 +14,31 @@ const Info = () => {
         description="IMAGES"
         title="PER DAY DELIEVERY"
         img={iconThree}
-        CountDown={5000}
+        CountDown={<CounterUpPage></CounterUpPage>}
       ></InfoCard>
       <InfoCard
         description="GRAPHIC DESIGNERS"
         title="WE HAVE"
         img={iconOne}
-        CountDown={200 + "+ "}
+        CountDown={<CounterUpPage></CounterUpPage>}
       ></InfoCard>
       <InfoCard
         description="PER IMAGE"
         title="STARTS FROM"
         img={iconfour}
-        CountDown={0.25}
+        CountDown={<CounterUpPage></CounterUpPage>}
       ></InfoCard>
       <InfoCard
         description="OR LESS DELIVERY TIME"
         title="WE PROVIDE"
         img={iconTwo}
-        CountDown={12 + " HOURS"}
+        CountDown={<CounterUpPage></CounterUpPage>}
       ></InfoCard>
       <InfoCard
         description="CUSTOMER SUPPORT"
         title="365 DAYS"
         img={clock}
-        CountDown={"24 / 7"}
+        CountDown={<CounterUpPage></CounterUpPage>}
       ></InfoCard>
     </div>
   );

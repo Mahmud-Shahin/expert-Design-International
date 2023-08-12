@@ -76,6 +76,14 @@ export function NavbarDefault() {
         <Button variant="gradient" size="sm" className="hidden lg:inline-block">
           <span>Get Free Trial</span>
         </Button>
+        <div className="card-actions justify-end">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+            Button
+          </button>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">
+            Button
+          </button>
+        </div>
         <IconButton
           variant="text"
           className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"

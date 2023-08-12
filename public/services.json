@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Background Removal Service",
+        "description": "Expert Graphic International is a clipping path company who expertise in background removal service",
+        "img": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/background-removal_before.webp"
+    },
+    {
+        "id": 2,
+        "name": "Web Design & Development",
+        "description": "I will make Web Development  for you",
+        "img": "https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }, 
+    {
+        "id": 3,
+        "name": "React appplication",
+        "description": "I will make React application for you",
+        "img": "https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 4,
+        "name": "Background Removal Service",
+        "description": "Expert Graphic International is a clipping path company who expertise in background removal service",
+        "img": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/background-removal_before.webp"
+    },
+    {
+        "id": 5,
+        "name": "Web Design & Development",
+        "description": "I will make Web Development  for you",
+        "img": "https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }, 
+    {
+        "id": 6,
+        "name": "React appplication",
+        "description": "I will make React application for you",
+        "img": "https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "id": 7,
+        "name": "Background Removal Service",
+        "description": "Expert Graphic International is a clipping path company who expertise in background removal service",
+        "img": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/background-removal_before.webp"
+    },
+    {
+        "id": 8,
+        "name": "Web Design & Development",
+        "description": "I will make Web Development  for you",
+        "img": "https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }, 
+    {
+        "id": 9,
+        "name": "React appplication",
+        "description": "I will make React application for you",
+        "img": "https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+    
+    
+]
