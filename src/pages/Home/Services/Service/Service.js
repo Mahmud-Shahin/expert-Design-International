@@ -1,11 +1,13 @@
 import React from "react";
+import BeforeAfterSlider from "../../../BeforeAfterSlider/BeforeAfterSlider";
 
 const Service = ({ service }) => {
   const { name, description, img } = service;
   return (
     <div className="card bg-base-100 shadow-xl">
       <figure>
-        <img src={img} alt="" />
+        {/* <img src={img} alt="" /> */}
+        <BeforeAfterSlider></BeforeAfterSlider>
       </figure>
       <div className="card-body">
         <h2 className="card-title">{name}</h2>
