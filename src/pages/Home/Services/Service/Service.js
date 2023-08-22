@@ -1,13 +1,21 @@
 import React from "react";
-import BeforeAfterSlider from "../../../BeforeAfterSlider/BeforeAfterSlider";
+// import BeforeAfterSlider from "../../../BeforeAfterSlider/BeforeAfterSlider";
+import {
+  ReactCompareSlider,
+  ReactCompareSliderImage,
+} from "react-compare-slider";
 
 const Service = ({ service }) => {
-  const { name, description, img } = service;
+  const { name, description, imgOne, imgtwo } = service;
   return (
     <div className="card bg-base-100 shadow-xl">
       <figure>
         {/* <img src={img} alt="" /> */}
-        <BeforeAfterSlider></BeforeAfterSlider>
+        <ReactCompareSlider
+          itemOne={<ReactCompareSliderImage src={imgOne} alt="Image one" />}
+          itemTwo={<ReactCompareSliderImage src={imgtwo} alt="Image two" />}
+        />
+        {/* <BeforeAfterSlider></BeforeAfterSlider> */}
       </figure>
       <div className="card-body">
         <h2 className="card-title">{name}</h2>
