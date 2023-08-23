@@ -46,7 +46,7 @@ const Footer = () => {
           <a className="link link-hover">Android</a>
         </div>
       </footer>
-      <footer className="footer footer-center p-4 bg-base-300 text-base-content">
+      <footer className="footer footer-center bg-neutral text-neutral-content p-4 bg-base-300 text-base-content">
         <div>
           <p>
             Copyright © 2023 - All right reserved by Expert Design International

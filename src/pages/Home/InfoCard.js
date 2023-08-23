@@ -3,7 +3,7 @@ import "./InfoCard.css";
 
 const InfoCard = ({ img, title, description, CountDown }) => {
   return (
-    <div className="card  bg-base-100 shadow-xl border-r-4 border-indigo-500 ">
+    <div className="card  bg-base-100 shadow-xl border-r-4 border-indigo-500 mt-8 ">
       <figure className="px-10 pt-10 ">
         <img src={img} alt="Shoes" className="rounded-xl " />
       </figure>

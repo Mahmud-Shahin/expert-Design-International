@@ -3,10 +3,10 @@ import Slider from "./Slider";
 
 const Banner = () => {
   return (
-    <div className="hero py-6 ">
+    <div className="hero  my-14  ">
       <div className="hero-content flex-col  lg:flex-row-reverse">
         <Slider></Slider>
-        <div className="">
+        <div className=" mr-5">
           <h1 className="text-3xl font-bold ">
             Cheap Photo Editing Service Provider Especially for E-commerce and
             Product Photos

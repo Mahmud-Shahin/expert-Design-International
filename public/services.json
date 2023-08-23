@@ -1,67 +1,76 @@
 [
     {
         "id": 1,
+        "price": "Price Starts From US$0.29 Per Image",
         "name": "Background Removal Service",
         "description": "Expert Graphic International is a clipping path company who expertise in background removal service",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/background-removal_before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/background-removal_after.webp"
 
     },
     {
         "id": 2,
-        "name": "Web Design & Development",
-        "description": "I will make Web Development  for you",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$0.99 Per Image",
+        "name": "Image Masking Service",
+        "description": "Transform your images with our professional image masking service and take advantage of our free trial service…",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/07/layer-masking-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/07/layer-masking-after.webp"
     }, 
     {
         "id": 3,
-        "name": "React appplication",
-        "description": "I will make React application for you",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$0.25 Per Image",
+        "name": "Photoshop Shadow Service",
+        "description": "Among other services that we excel in, Photoshop shadow service is a service that we are best at. Expert Graphics…",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/photoshop-shadow-servcie-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/photoshop-shadow-servcie-after.webp"
     },
     {
         "id": 4,
-        "name": "Background Removal Service",
-        "description": "Expert Graphic International is a clipping path company who expertise in background removal service",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$0.99 Per Image",
+        "name": "Ghost Mannequin Service",
+        "description": "Quality and reproducibility of work are the keys to our today’s position in the industry. And to g…",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/ghost-mannequin-neck-joint-services-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/ghost-mannequin-neck-joint-services-after.webp"
     },
     {
         "id": 5,
-        "name": "Web Design & Development",
-        "description": "I will make Web Development  for you",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$0.75 Per Image",
+        "name": "Color Variants Service",
+        "description": "Expert Graphic International is a pioneer organization including vast knowledge…",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/color-variants-service_-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/color-variants-service_-after.webp"
     }, 
     {
         "id": 6,
-        "name": "React appplication",
-        "description": "I will make React application for you",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$1.49 Per Image",
+        "name": "Image Retouching Service",
+        "description": "Expert Graphic International, as a photo retouching service provider company…… ",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/image-retouching-service-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/image-retouching-service-after.webp"
     },
     {
         "id": 7,
-        "name": "Background Removal Service",
-        "description": "Expert Graphic International is a clipping path company who expertise in background removal service",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$1.59 Per Image",
+        "name": "Real Estate Photo Editing Service",
+        "description": "Expert Graphic International&nbsp;is a clipping path company who expertise in Real Estate Photo Edit…",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/real-estate-photo-editing-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/real-estate-photo-editing-after.webp"
     },
     {
         "id": 8,
-        "name": "Web Design & Development",
-        "description": "I will make Web Development  for you",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$1.99 Per Image",
+        "name": "Vector Conversion Service",
+        "description": "If you’re looking to enhance your visual content with high-quality vector graphics, our Vector Conve…",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/vector-conversion-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/vector-conversion-after.webp"
     }, 
     {
         "id": 9,
-        "name": "React appplication",
-        "description": "I will make React application for you",
-        "imgOne": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-        "imgtwo": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+        "price": "Price Starts From US$4.49 Per Image",
+        "name": "Creative Image Editing Service",
+        "description": "A unique tradition is image altering. It is becoming far more essential in all economic sectors, sta…",
+        "imgOne": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/creative-image-editing-service-before.webp",
+        "imgtwo": "https://expertgraphicinternational.com/wp-content/uploads/2023/02/creative-image-editing-service-after.webp"
     }
     
     

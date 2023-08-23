@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -110,7 +110,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end space-x-1">
+        <div className="navbar-end space-x-2">
           <button className="btn btn-success">image upload</button>
           <button className="btn btn-outline btn-primary">
             Get free trial

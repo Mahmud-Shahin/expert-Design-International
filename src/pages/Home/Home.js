@@ -3,6 +3,9 @@ import Banner from "./Banner";
 import Info from "./Info";
 
 import Services from "./Services/Services";
+import AboutUs from "./AboutUs/AboutUs";
+import MarqueeSlider from "./MarqueeSlider";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -10,6 +13,9 @@ const Home = () => {
       <Banner></Banner>
       <Info></Info>
       <Services></Services>
+      <AboutUs></AboutUs>
+      <Faq></Faq>
+      <MarqueeSlider></MarqueeSlider>
     </div>
   );
 };

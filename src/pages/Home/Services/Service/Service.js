@@ -1,24 +1,23 @@
 import React from "react";
-// import BeforeAfterSlider from "../../../BeforeAfterSlider/BeforeAfterSlider";
+
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,
 } from "react-compare-slider";
 
 const Service = ({ service }) => {
-  const { name, description, imgOne, imgtwo } = service;
+  const { name, description, imgOne, imgtwo, price } = service;
   return (
-    <div className="card bg-base-100 shadow-xl">
+    <div className="card bg-base-100 shadow-xl mb-7">
       <figure>
-        {/* <img src={img} alt="" /> */}
         <ReactCompareSlider
           itemOne={<ReactCompareSliderImage src={imgOne} alt="Image one" />}
           itemTwo={<ReactCompareSliderImage src={imgtwo} alt="Image two" />}
         />
-        {/* <BeforeAfterSlider></BeforeAfterSlider> */}
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{name}</h2>
+        <p className="card-title text-orange-400">{price}</p>
+        <h1 className="card-title text-2xl">{name}</h1>
         <p>{description}</p>
         <div className="card-actions justify-end space-x-20 py-2">
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 border border-blue-700 rounded">

@@ -23,7 +23,7 @@ const Services = () => {
           clipping path service provider.
         </span>
       </div>
-      <div className="grid grid-cols-1  lg:grid-cols-3 md:grid-cols-2 gap-5 ">
+      <div className="grid grid-cols-1  lg:grid-cols-3 md:grid-cols-2 gap-5   ">
         {services.map((service) => (
           <Service key={service.id} service={service}></Service>
         ))}
