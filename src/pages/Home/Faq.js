@@ -3,6 +3,10 @@ import React from "react";
 const Faq = () => {
   return (
     <div>
+      <div className="main-text">
+        <h1 className="text-2xl my-8">FAQ</h1>
+        <span>What you want to know. Given the Answer bellow</span>
+      </div>
       <div className="collapse collapse-plus bg-base-200 my-10">
         <input type="radio" name="my-accordion-3" checked="checked" />
         <div className="collapse-title text-xl font-medium py-5">

@@ -6,6 +6,7 @@ import Services from "./Services/Services";
 import AboutUs from "./AboutUs/AboutUs";
 import MarqueeSlider from "./MarqueeSlider";
 import Faq from "./Faq";
+import Reviews from "./Services/Reviews/Reviews";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services></Services>
       <AboutUs></AboutUs>
       <Faq></Faq>
+      <Reviews></Reviews>
       <MarqueeSlider></MarqueeSlider>
     </div>
   );
