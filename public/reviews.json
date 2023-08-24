@@ -1,30 +1,50 @@
 [
     {
         "id": 1,
-        "img":  "",
-        "name": "Background Removal Service",
+        "img":  "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+        "name": "Wiliam Jams",
+        "location": "Sydney, Australia",
         "description": "Expert Graphic International is a clipping path company who expertise in background removal service"
      
 
     },
     {
         "id": 2,
-        "img":  "",
-        "name": "Image Masking Service",
+        "img":  "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+        "name": "Jon F Canedy",
+        "location": "Amsterdam, Netherland",
         "description": "Transform your images with our professional image masking service and take advantage of our free trial service…"
       
     }, 
     {
         "id": 3,
-        "img":  "",
-        "name": "Photoshop Shadow Service",
+        "img":  "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+        "name": "Justin biber",
+        "location": "Riyadh , Soudi Arabia",
         "description": "Among other services that we excel in, Photoshop shadow service is a service that we are best at. Expert Graphics…"
    
     },
     {
         "id": 4,
-        "img":  "",
-        "name": "Ghost Mannequin Service",
+        "img":  "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+        "name": "justin trudu",
+        "location": "cairo, Egypt",
+        "description": "Quality and reproducibility of work are the keys to our today’s position in the industry. And to g…"
+    
+    },
+    {
+        "id": 4,
+        "img":  "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+        "name": "joe Biden",
+        "location": "NewYork, America",
+        "description": "Quality and reproducibility of work are the keys to our today’s position in the industry. And to g…"
+    
+    },
+    {
+        "id": 4,
+        "img":  "https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg",
+        "name": "Micle Collins",
+        "location": "london, Englend",
         "description": "Quality and reproducibility of work are the keys to our today’s position in the industry. And to g…"
     
     }
