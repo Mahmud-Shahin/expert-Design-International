@@ -111,7 +111,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end space-x-2">
-          <button className="btn btn-success">image upload</button>
+          {/* <button className="btn btn-success">image upload</button> */}
           <button className="btn btn-outline btn-primary">
             Get free trial
           </button>

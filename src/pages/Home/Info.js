@@ -36,7 +36,7 @@ const Info = () => {
       ></InfoCard>
       <InfoCard
         description="CUSTOMER SUPPORT"
-        title="365 DAYS"
+        title="24 / 7 DAYS"
         img={clock}
         CountDown={<CounterUpPage></CounterUpPage>}
       ></InfoCard>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Price from "./Price/Price";
+import PriceFrom from "../Home/PriceForm/PriceFrom";
 
 const Prices = () => {
   const [prices, setPrices] = useState([]);
@@ -33,6 +34,7 @@ const Prices = () => {
           ))}
         </div>
       </div>
+      <PriceFrom></PriceFrom>
     </div>
   );
 };

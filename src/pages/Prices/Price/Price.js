@@ -32,7 +32,7 @@ const Price = ({ price }) => {
         <p className=" text-center text-xl ">{pricename}</p>
         <p className="text-center text-3xl ">{priceammount}</p>
         <p className=" text-center text-xl ">{priceimg}</p>
-        <div className="text-center py-5 text-cyan-700 ">
+        <div className=" py-5 text-cyan-700 ">
           <li>
             <a href="/">{text1} </a>
           </li>
