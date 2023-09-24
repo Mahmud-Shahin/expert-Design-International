@@ -1,6 +1,7 @@
 import React from "react";
 import twentyfourSeven from "../../../assets/images/24 .7 .png";
-import ValidationTextFields from "./ValidationTextFields";
+
+import ContactUsForm from "../../ContactUS/ContactUsForm/ContactUsForm";
 
 const PriceFrom = () => {
   return (
@@ -8,7 +9,7 @@ const PriceFrom = () => {
       <div className="hero-content flex-col lg:flex-row">
         <img src={twentyfourSeven} className="mr-12" alt="" />
         <div>
-          <ValidationTextFields></ValidationTextFields>
+          <ContactUsForm></ContactUsForm>
         </div>
       </div>
     </div>

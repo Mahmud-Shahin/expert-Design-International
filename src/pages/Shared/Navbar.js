@@ -2,8 +2,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <div className="navbar bg-base-100">
+    <div className="max-w-7xl mx-auto sticky top-0 z-10">
+      <div className="navbar bg-base-100 bg-white ">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -24,7 +24,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 "
             >
               <li>
                 <a href="/">Home</a>
@@ -84,9 +84,20 @@ const Navbar = () => {
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <a href="/">Back ground removal service</a>
-                </li>{" "}
+                <li className="dropdown dropdown-hover dropdown-right ">
+                  <label> Back ground removal service</label>
+                  <ul className=" ">
+                    <li className="dropdown  dropdown-right ">
+                      <a href="/">helolo</a>
+                    </li>
+                    <li>
+                      <a href="/">Gello</a>
+                    </li>{" "}
+                    <li>
+                      <a href="/">dello </a>
+                    </li>
+                  </ul>
+                </li>
                 <li>
                   <a href="/">Back ground removal service </a>
                 </li>
