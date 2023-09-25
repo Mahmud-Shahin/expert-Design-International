@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Service from "./Service/Service";
 import "./Services.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Services = () => {
   const [services, setServices] = useState([]);
@@ -9,8 +11,19 @@ const Services = () => {
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
-    <div className="bg-base-200">
+    <div
+      className="bg-base-200"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
       <div className="main-text">
         <h1 className="text-2xl my-8">Best Image Editing Services</h1>
         <span>

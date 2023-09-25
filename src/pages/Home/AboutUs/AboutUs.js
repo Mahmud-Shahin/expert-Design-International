@@ -1,15 +1,24 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutUs = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="hero my-14 ">
       <div className="hero-content flex-col lg:flex-row">
         <img
           src="https://expertgraphicinternational.com/wp-content/uploads/2023/02/office-expert-graphic.webp"
           alt=""
-          className="mr-16 "
+          className="mr-16"
+          data-aos="fade-right"
+          data-aos-duration="2000"
         />
-        <div>
+        <div data-aos="fade-left" data-aos-duration="2000">
           <h1 className="text-3xl mb-5">About Expert Graphic International</h1>
           <p className="">
             Are you looking for a Ghost Mannequin Service Provider, graphic

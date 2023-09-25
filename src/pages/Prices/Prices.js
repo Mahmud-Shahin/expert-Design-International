@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Price from "./Price/Price";
 import PriceFrom from "../Home/PriceForm/PriceFrom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Prices = () => {
   const [prices, setPrices] = useState([]);
@@ -9,8 +11,18 @@ const Prices = () => {
       .then((res) => res.json())
       .then((data) => setPrices(data));
   }, []);
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <div className="max-w-7xl mx-auto">
+    <div
+      className="max-w-7xl mx-auto"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+    >
       <div>
         <div className="main-text">
           <h1 className="text-2xl my-8">
