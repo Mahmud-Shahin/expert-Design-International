@@ -7,6 +7,7 @@ import AboutUs from "./AboutUs/AboutUs";
 import MarqueeSlider from "./MarqueeSlider";
 import Faq from "./Faq";
 import Reviews from "./Services/Reviews/Reviews";
+import Dropdown from "../Dropdown/Dropdown";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Faq></Faq>
       <Reviews></Reviews>
       <MarqueeSlider></MarqueeSlider>
+      <Dropdown></Dropdown>
     </div>
   );
 };

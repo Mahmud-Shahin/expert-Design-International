@@ -29,6 +29,7 @@ const Navbar = () => {
               <li>
                 <a href="/">Home</a>
               </li>
+
               <li>
                 <a href="/">Service</a>
                 <ul className="p-2">
@@ -64,40 +65,30 @@ const Navbar = () => {
             <li>
               <a href="/">Home</a>
             </li>
+
+            {/* dropdown start */}
             <li className="dropdown dropdown-hover ">
               <label>Service</label>
               <ul
                 tabIndex={0}
                 className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-60"
               >
-                <li className="dropdown dropdown-hover dropdown-right ">
-                  <label> Back ground removal service</label>
-                  <ul className=" ">
-                    <li className="dropdown  dropdown-right ">
-                      <a href="/">helolo</a>
-                    </li>
-                    <li>
-                      <a href="/">Gello</a>
-                    </li>{" "}
-                    <li>
-                      <a href="/">dello </a>
-                    </li>
-                  </ul>
-                </li>
-                <li className="dropdown dropdown-hover dropdown-right ">
-                  <label> Back ground removal service</label>
-                  <ul className=" ">
-                    <li className="dropdown  dropdown-right ">
-                      <a href="/">helolo</a>
-                    </li>
-                    <li>
-                      <a href="/">Gello</a>
-                    </li>{" "}
-                    <li>
-                      <a href="/">dello </a>
-                    </li>
-                  </ul>
-                </li>
+                <div>
+                  <li className="dropdown dropdown-hover ">
+                    <label> Back ground removal service</label>
+                    <ul>
+                      <li>
+                        <a href="/">helolo</a>
+                      </li>
+                      <li>
+                        <a href="/">Gello</a>
+                      </li>
+                      <li>
+                        <a href="/">dello </a>
+                      </li>
+                    </ul>
+                  </li>
+                </div>
                 <li>
                   <a href="/">Back ground removal service </a>
                 </li>
@@ -112,6 +103,8 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
+
+            {/* dropdown end  */}
 
             <li>
               <a href="/prices">Pricing</a>
