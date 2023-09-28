@@ -61,34 +61,34 @@ const Navbar = () => {
           </a>
         </div>
         <div className="navbar-center hidden lg:flex ">
-          <ul className="menu menu-horizontal px-1 text-xl">
+          <ul className="menu menu-horizontal px-1 text-xl ">
             <li>
               <a href="/">Home</a>
             </li>
 
             {/* dropdown start */}
-            <li className="dropdown dropdown-hover ">
-              <label>Service</label>
-              <ul
-                tabIndex={0}
-                className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-60"
-              >
-                <div>
-                  <li className="dropdown dropdown-hover ">
-                    <label> Back ground removal service</label>
-                    <ul>
-                      <li>
-                        <a href="/">helolo</a>
-                      </li>
-                      <li>
-                        <a href="/">Gello</a>
-                      </li>
-                      <li>
-                        <a href="/">dello </a>
-                      </li>
-                    </ul>
-                  </li>
-                </div>
+            {/* <li className="dropdown dropdown-hover">
+              <a href="/">Services</a>
+              <ul className="dropdown-content z-[1] menu  shadow bg-base-100  w-60">
+                <li class="dropdown dropdown-right">
+                  <a href="/">Back ground removal service</a>
+
+                  <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <li>
+                      <a>Item 1</a>
+                    </li>
+                    <li>
+                      <a>Item 2</a>
+                    </li>
+                    <li>
+                      <a>Item 3</a>
+                    </li>
+                    <li>
+                      <a>Item 4</a>
+                    </li>
+                  </ul>
+                </li>
+
                 <li>
                   <a href="/">Back ground removal service </a>
                 </li>
@@ -102,9 +102,37 @@ const Navbar = () => {
                   <a href="/">Back ground removal service</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             {/* dropdown end  */}
+            <li className="dropdown dropdown-hover">
+              <a href="/">Department</a>
+              <ul
+                tabIndex={0}
+                className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li className="dropdown dropdown-right">
+                  <a href="/">CSE</a>
+                  <ul
+                    tabIndex={0}
+                    className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
+                  >
+                    <li>
+                      <a>Item 1</a>
+                    </li>
+                    <li>
+                      <a>Item 2</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a>EEE</a>
+                </li>
+                <li>
+                  <a>Civil</a>
+                </li>
+              </ul>
+            </li>
 
             <li>
               <a href="/prices">Pricing</a>
