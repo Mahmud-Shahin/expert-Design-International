@@ -1,4 +1,5 @@
 import React from "react";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
@@ -67,72 +68,151 @@ const Navbar = () => {
             </li>
 
             {/* dropdown start */}
-            {/* <li className="dropdown dropdown-hover">
+            <li className="dropdown dropdown-hover">
               <a href="/">Services</a>
               <ul className="dropdown-content z-[1] menu  shadow bg-base-100  w-60">
-                <li class="dropdown dropdown-right">
+                <li className="dropdown hoverme dropdown-right">
                   <a href="/">Back ground removal service</a>
-
-                  <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
                     <li>
-                      <a>Item 1</a>
+                      <a href="/">Item 1</a>
                     </li>
                     <li>
-                      <a>Item 2</a>
+                      <a href="/">Item 2</a>
                     </li>
                     <li>
-                      <a>Item 3</a>
+                      <a href="/">Item 3</a>
                     </li>
                     <li>
-                      <a>Item 4</a>
+                      <a href="/">Item 4</a>
                     </li>
                   </ul>
                 </li>
 
-                <li>
-                  <a href="/">Back ground removal service </a>
-                </li>
-                <li>
+                <li className="dropdown hoverme dropdown-right">
                   <a href="/">Back ground removal service</a>
-                </li>
-                <li>
-                  <a href="/">Back ground removal service </a>
-                </li>
-                <li>
-                  <a href="/">Back ground removal service</a>
-                </li>
-              </ul>
-            </li> */}
-
-            {/* dropdown end  */}
-            <li className="dropdown dropdown-hover">
-              <a href="/">Department</a>
-              <ul
-                tabIndex={0}
-                className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
-              >
-                <li className="dropdown dropdown-right">
-                  <a href="/">CSE</a>
-                  <ul
-                    tabIndex={0}
-                    className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
-                  >
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
                     <li>
-                      <a>Item 1</a>
+                      <a href="/">Item 1</a>
                     </li>
                     <li>
-                      <a>Item 2</a>
+                      <a href="/">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 4</a>
                     </li>
                   </ul>
                 </li>
-                <li>
-                  <a>EEE</a>
+
+                <li className="dropdown hoverme dropdown-right">
+                  <a href="/">Back ground removal service</a>
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
+                    <li>
+                      <a href="/">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 4</a>
+                    </li>
+                  </ul>
                 </li>
-                <li>
-                  <a>Civil</a>
+                <li className="dropdown hoverme dropdown-right">
+                  <a href="/">Back ground removal service</a>
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
+                    <li>
+                      <a href="/">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropdown hoverme dropdown-right">
+                  <a href="/">Back ground removal service</a>
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
+                    <li>
+                      <a href="/">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropdown hoverme dropdown-right">
+                  <a href="/">Back ground removal service</a>
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
+                    <li>
+                      <a href="/">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropdown hoverme dropdown-right">
+                  <a href="/">Back ground removal service</a>
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
+                    <li>
+                      <a href="/">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 4</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="dropdown hoverme dropdown-right">
+                  <a href="/">Back ground removal service</a>
+                  <ul className="hidden display dropdown-content z-[1] ml-2 shadow bg-base-100  w-60">
+                    <li>
+                      <a href="/">Item 1</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 2</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 3</a>
+                    </li>
+                    <li>
+                      <a href="/">Item 4</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </li>
+
+            {/* dropdown end  */}
 
             <li>
               <a href="/prices">Pricing</a>
