@@ -7,7 +7,6 @@ import AboutUs from "./AboutUs/AboutUs";
 import MarqueeSlider from "./MarqueeSlider";
 import Faq from "./Faq";
 import Reviews from "./Services/Reviews/Reviews";
-import Chatbot from "../Shared/Chatbot";
 
 const Home = () => {
   return (
@@ -19,7 +18,6 @@ const Home = () => {
       <Faq></Faq>
       <Reviews></Reviews>
       <MarqueeSlider></MarqueeSlider>
-      <Chatbot></Chatbot>
     </div>
   );
 };

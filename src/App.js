@@ -7,6 +7,7 @@ import Footer from "./pages/Shared/Footer";
 
 import ContactUs from "./pages/ContactUS/ContactUs";
 import Prices from "./pages/Prices/Prices";
+import ClippingPath from "./pages/ClippingPath/ClippingPath";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/prices" element={<Prices></Prices>}></Route>
         <Route path="/contactus" element={<ContactUs></ContactUs>}></Route>
+        <Route
+          path="/clippingpath"
+          element={<ClippingPath></ClippingPath>}
+        ></Route>
       </Routes>
       <Footer></Footer>
     </div>

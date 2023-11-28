@@ -37,24 +37,6 @@ const Navbar = () => {
                 <a href="/contactus">Contact</a>
               </li>
 
-              {/* <li>
-                <a href="/">Service</a>
-                <ul className="p-2">
-                  <li>
-                    <a href="/">Back ground removal service</a>
-                  </li>
-                  <li>
-                    <a href="/">Back ground removal service2</a>
-                  </li>
-                  <li>
-                    <a href="/">Back ground removal service</a>
-                  </li>
-                  <li>
-                    <a href="/">Back ground removal service2</a>
-                  </li>
-                </ul>
-              </li> */}
-
               {/* dropdown start */}
               <li className="dropdown dropdown-hover">
                 <a href="/">Services</a>
@@ -63,7 +45,9 @@ const Navbar = () => {
                     <a href="/">Back ground removal service</a>
                     <ul className="hidden display dropdown-content z-[1] ml-1 shadow bg-base-100  w-80">
                       <li>
-                        <a href="/">Clipping path on white background</a>
+                        <a href="/clippingpath">
+                          Clipping path on white background
+                        </a>
                       </li>
                       <li>
                         <a href="/">Clipping path on transparent background</a>
@@ -275,7 +259,9 @@ const Navbar = () => {
                   <a href="/">Back ground removal service</a>
                   <ul className="hidden display dropdown-content z-[1] ml-1 shadow bg-base-100  w-80">
                     <li>
-                      <a href="/">Clipping path on white background</a>
+                      <a href="/clippingpath">
+                        Clipping path on white background
+                      </a>
                     </li>
                     <li>
                       <a href="/">Clipping path on transparent background</a>
