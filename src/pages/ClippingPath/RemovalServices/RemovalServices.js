@@ -24,7 +24,9 @@ const RemovalServices = () => {
       data-aos-duration="1000"
     >
       <div className="main-text">
-        <h1 className="text-2xl my-8">Best Image Editing Services</h1>
+        <h1 className="text-2xl my-8">
+          Clipping path on white background Services
+        </h1>
         <span>
           Photographers, e-commerce enterprises, design studios, advertising
           agencies, and individuals who wish to colorize their environment with
