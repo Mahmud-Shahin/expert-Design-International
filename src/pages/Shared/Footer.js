@@ -1,8 +1,13 @@
 import React from "react";
+import WhatsApp from "./WhatsApp";
+import Chatbot from "./Chatbot";
 
 const Footer = () => {
   return (
     <div className="mb-5">
+      {/* <WhatsApp></WhatsApp>  */}
+      <Chatbot></Chatbot>
+
       <footer className="footer grid-rows-2 p-10 bg-neutral text-neutral-content">
         <div>
           <span className="footer-title">Services</span>
